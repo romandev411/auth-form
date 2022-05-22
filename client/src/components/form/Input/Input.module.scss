@@ -1,0 +1,24 @@
+.input {
+  position: relative;
+  display: block;
+}
+
+.input__item {
+  color: #9ca8b7;
+  margin: 0;
+  width: 100%;
+  font-size: 16px;
+  height: auto;
+  padding: 21px 23px;
+  display: inline-block;
+  border: 2px solid white;
+  border-radius: 4px;
+
+  &.error {
+    border-color: red;
+  }
+
+  &.valid {
+    border-color: lightgreen;
+  }
+}

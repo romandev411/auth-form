@@ -1,0 +1,23 @@
+.radio-sect {
+  display: block;
+  padding: 14px;
+  border: 1px solid #fff;
+  display: flex;
+  align-items: center;
+}
+
+.radio-sect__item {
+  margin-right: 8px;
+}
+
+.radio-sect__text {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  font-size: 14px;
+
+  & > *:first-child {
+    font-size: 24px;
+    margin-bottom: 4px;
+  }
+}

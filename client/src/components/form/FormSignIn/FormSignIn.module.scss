@@ -1,0 +1,27 @@
+.form-sign-in__title {
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.form-sign-in__item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.form-sign-in__checkbox {
+  display: flex;
+  align-items: center;
+}
+
+.form-sign-in__checkbox-text {
+  margin-left: 8px;
+  color: #fff;
+  font-size: 14px;
+}
+
+.form-sign-in__fields {
+  margin-bottom: 30px;
+}

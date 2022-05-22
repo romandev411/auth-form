@@ -1,0 +1,19 @@
+.form-button {
+  display: block;
+  width: 100%;
+  background-color: #28d2d0;
+  transition: all 0.05s ease-in;
+  border-radius: 4px;
+  height: 64px;
+  width: 100%;
+  border: 0;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  text-transform: uppercase;
+
+  &:active {
+    opacity: 0.7;
+  }
+}
